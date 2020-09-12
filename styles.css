@@ -1,0 +1,87 @@
+body{
+    background: grey;
+}
+
+.contenedorppal {
+    border-style: ridge;
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    height: 400px;
+    background: white;
+}
+
+.contenedorsup {
+    height: 100px;
+    //border-style: ridge;
+}
+
+.contenedorcent {
+    height: 200px;
+    //border-style: ridge;
+    text-align: center;
+}
+
+.contenedorinf {
+    height: 100;
+    //border-style: ridge;
+    text-align: center;
+}
+
+.titulo {
+    font-size: xx-large;
+    width: 450px;
+    //border-style: ridge;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 100px;
+    //border-style: ridge;
+    float: right;
+    margin-top: 12px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.mensaje {
+    //font-size: xx-large;
+    width: 250px;
+    //border-style: ridge;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.valores {
+    //font-size: xx-large;
+    width: 250px;
+    //border-style: ridge;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+    //background: grey;
+    color: grey;
+}
+
+li {
+    border-bottom: 1px solid grey;
+    padding: 5%;
+}
+
+.enviar {
+    text-align: center;
+    border-style: ridge;
+    font-size: medium;
+    background-color: lightgrey;
+}   
