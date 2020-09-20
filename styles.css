@@ -1,8 +1,13 @@
-body{
+@font-face {
+    font-family: "_form";
+    src: url("https://fonts.google.com/specimen/Cormorant+Garamond?category=Serif&preview.text=hola&preview.text_type=custom");
+  }
+
+.body{
     background: grey;
 }
 
-.contenedorppal {
+.containerppal {
     border-style: ridge;
     margin: auto;
     margin-top: 100px;
@@ -11,24 +16,24 @@ body{
     background: white;
 }
 
-.contenedorsup {
+.containerup {
     height: 100px;
     //border-style: ridge;
 }
 
-.contenedorcent {
+.containercent {
     height: 200px;
     //border-style: ridge;
     text-align: center;
 }
 
-.contenedorinf {
+.containerdown {
     height: 100;
     //border-style: ridge;
     text-align: center;
 }
 
-.titulo {
+.title {
     font-size: xx-large;
     width: 450px;
     //border-style: ridge;
@@ -50,13 +55,12 @@ img {
 }
 
 .mensaje {
-    //font-size: xx-large;
+    font-size:large;
     width: 250px;
     //border-style: ridge;
     float: left;
     margin-top: 20px;
     margin-left: 20px;
-
 }
 
 .valores {
@@ -68,20 +72,17 @@ img {
     margin-left: 20px;
 }
 
-ul {
-    list-style: none;
-    //background: grey;
-    color: grey;
-}
+input {
+    border: 0;
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-family: "_form", cursive;
+    }
 
-li {
-    border-bottom: 1px solid grey;
-    padding: 5%;
-}
-
-.enviar {
+button {
     text-align: center;
     border-style: ridge;
     font-size: medium;
     background-color: lightgrey;
+    border: 0;
 }   
